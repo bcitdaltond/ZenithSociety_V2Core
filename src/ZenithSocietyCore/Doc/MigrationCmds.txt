@@ -1,0 +1,4 @@
+﻿
+dotnet ef migrations add FirstMigration --context ZenithContext
+
+dotnet ef database update --context ZenithContext
