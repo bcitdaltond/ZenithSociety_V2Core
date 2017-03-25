@@ -124,7 +124,6 @@ namespace ZenithSocietyCore
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
             // for github deployment 
-            AppDbContext.Database.Migrate();
             context.Database.Migrate(); 
             SeedData.Initialize(context);
         }
